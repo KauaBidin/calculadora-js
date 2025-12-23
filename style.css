@@ -6,7 +6,7 @@ body {
     align-items: center;     /* Centraliza a calculadora verticalmente */
     height: 100vh;           /* Altura da tela */
     margin: 0;               /* Remove margens */
-    background-color: #7be8f0; /* Cor de fundo */
+    background-color:  #e0e0e0; /* Cor de fundo */
   }
   h1 {
     text-align: center; /* Centraliza o texto horizontalmente */
@@ -61,4 +61,5 @@ body {
   .button:active {
     transform: scale(0.95); /* Reduz um pouco o tamanho ao pressionar */
   }
+
   
