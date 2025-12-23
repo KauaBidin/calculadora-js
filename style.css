@@ -1,0 +1,64 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza a calculadora horizontalmente */
+    align-items: center;     /* Centraliza a calculadora verticalmente */
+    height: 100vh;           /* Altura da tela */
+    margin: 0;               /* Remove margens */
+    background-color: #7be8f0; /* Cor de fundo */
+  }
+  h1 {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+  }
+  
+  /* Calculadora */
+  .calculadora {
+    width: 280px;            /* Largura da calculadora */
+    padding: 20px;
+    background-color: white; /* Fundo branco */
+    border-radius: 10px;     /* Bordas arredondadas */
+  }
+  
+  /* Display */
+  .display {
+    width: 100%;             /* Ocupa toda a largura */
+    padding: 15px;
+    font-size: 24px;         /* Tamanho da fonte */
+    text-align: right;       /* Alinha o texto à direita */
+    background-color: #e0e0e0; /* Cor do fundo */
+    border: 1px solid #ccc; /* Borda fina */
+    border-radius: 5px;      /* Bordas arredondadas */
+    box-sizing: border-box;  /* Considera padding na largura */
+  }
+  
+  /* Botões */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Estilo dos botões */
+  .button {
+    padding: 20px;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Efeito hover (quando passa o mouse) */
+  .button:hover {
+    background-color: #d0d0d0;
+  }
+  
+  /* Efeito ativo (quando pressionado) */
+  .button:active {
+    transform: scale(0.95); /* Reduz um pouco o tamanho ao pressionar */
+  }
+  
